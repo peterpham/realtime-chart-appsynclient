@@ -1,0 +1,20 @@
+{
+  "name": "realtime-chart",
+  "version": "1.0.0",
+  "description": "Sample realtime chart with AppSync",
+  "dependencies": {
+    "aws-amplify": "^1.1.30",
+    "aws-appsync": "^1.8.1",
+    "graphql-tag": "^2.10.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
+  }
+}
